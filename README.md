@@ -1,8 +1,8 @@
-# express-template ![version](https://img.shields.io/github/v/tag/gajaguar/express-api-template?label=version) ![license](https://img.shields.io/github/license/gajaguar/express-api-template)
-
-A bookstore inventory management api.
+# Backend Technical Challenge #1 ![version](https://img.shields.io/github/v/tag/gajaguar/backend-technical-challenge-1?label=version) ![license](https://img.shields.io/github/license/gajaguar/backend-technical-challenge-1)
 
 > by: [G.A.JAGUAR](https://github.com/gajaguar)
+
+A bookstore inventory management api.
 
 ![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -67,3 +67,94 @@ pnpm dev
 pnpm build
 pnpm start
 ```
+
+## Database
+
+### Tables
+
+- `user`
+  - `id`
+  - `name`
+  - `email`
+  - `password`
+- `author`
+  - `id`
+  - `name`
+- `publisher`
+  - `id`
+  - `name`
+- `genre`
+  - `id`
+  - `name`
+- `book`
+  - `id`
+  - `name`
+  - `authorId`
+  - `publisherId`
+  - `genreId`
+  - `year`
+  - `isbn`
+  - `quantity`
+
+## API
+
+### Enpoints
+
+- `/api/users`
+  - POST
+    - `/`: create a new user.
+  - GET
+    - `/`: read all users.
+    - `/:id`: read specific user.
+  - PATCH
+    - `/:id`: update specific user.
+  - DELETE
+    - `/:id`: delete specific user.
+
+- `/api/authors`
+  - POST
+    - `/`: create a new author.
+  - GET
+    - `/`: read all authors.
+    - `/:id`: read specific author.
+  - PATCH
+    - `/:id`: update specific author.
+  - DELETE
+    - `/:id`: delete specific author.
+
+- `/api/publishers`
+  - POST
+    - `/`: create a new publisher.
+  - GET
+    - `/`: read all publishers.
+    - `/:id`: read specific publisher.
+  - PATCH
+    - `/:id`: update specific publisher.
+  - DELETE
+    - `/:id`: delete specific publisher.
+
+- `/api/genres`
+  - POST
+    - `/`: create a new genre.
+  - GET
+    - `/`: read all genres.
+    - `/:id`: read specific genre.
+  - PATCH
+    - `/:id`: update specific genre.
+  - DELETE
+    - `/:id`: delete specific genre.
+
+- `/api/books`
+  - POST
+    - `/`: create a new book.
+  - GET
+    - `/`: read all books.
+    - `/:id`: read specific book.
+  - PATCH
+    - `/:id`: update specific book.
+  - DELETE
+    - `/:id`: delete specific book.
+
+- `/api/populate`
+  - GET
+    - `/`: inter mocked data into the database.
