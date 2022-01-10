@@ -1,19 +1,20 @@
 {
-  "name": "@gajaguar/express-api-template",
+  "name": "@gajaguar/backend-technical-challenge-1",
   "version": "0.1.0",
-  "description": "A basic template for an API built with Express and typescript.",
+  "description": "A bookstore inventory management api",
   "private": true,
   "keywords": [
     "api",
     "backend",
+    "challenge",
     "express",
     "node",
-    "server",
-    "template"
+    "rest",
+    "technical"
   ],
-  "homepage": "https://github.com/gajaguar/express-api-template#readme",
+  "homepage": "https://github.com/gajaguar/backend-technical-challenge-1#readme",
   "bugs": {
-    "url": "https://github.com/gajaguar/express-api-template.git/issues"
+    "url": "https://github.com/gajaguar/backend-technical-challenge-1.git/issues"
   },
   "license": "MIT",
   "author": "G.A.JAGUAR <dev.gajaguar@gmail.com>",
@@ -23,7 +24,7 @@
   "main": "lib/server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gajaguar/express-api-template.git"
+    "url": "git+https://github.com/gajaguar/backend-technical-challenge-1.git"
   },
   "scripts": {
     "build": "tsc",
