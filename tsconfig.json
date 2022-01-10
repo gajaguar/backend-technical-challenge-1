@@ -1,0 +1,28 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "strictPropertyInitialization": false
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
+  "include": [
+    "./src/**/*",
+  ],
+  "types": [
+    "@types/bcrypt",
+    "@types/express",
+    "@types/faker",
+    "@types/jest",
+    "@types/node",
+  ],
+}
