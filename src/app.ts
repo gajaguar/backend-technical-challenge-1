@@ -1,4 +1,3 @@
-import 'reflect-metadata'
 import express, { Express, json, urlencoded } from 'express'
 import { boomErrorHandler, errorHandler, errorLogger } from './network'
 import { usersRouter } from './routers'

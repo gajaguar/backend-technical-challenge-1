@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import appFactory from './app'
 import { settings } from './core'
 
