@@ -4,6 +4,7 @@ import {
   authorsRouter,
   booksRouter,
   genresRouter,
+  populateRouter,
   publishersRouter,
   usersRouter,
 } from './routers'
@@ -23,6 +24,7 @@ export default (): Express => {
   authorsRouter(app)
   booksRouter(app)
   genresRouter(app)
+  populateRouter(app)
   publishersRouter(app)
   usersRouter(app)
 
