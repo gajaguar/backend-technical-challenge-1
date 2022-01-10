@@ -1,8 +1,15 @@
 # express-template ![version](https://img.shields.io/github/v/tag/gajaguar/express-api-template?label=version) ![license](https://img.shields.io/github/license/gajaguar/express-api-template)
 
-A basic template for an API built in with Express and typescript.
+A bookstore inventory management api.
 
 > by: [G.A.JAGUAR](https://github.com/gajaguar)
+
+![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
 ## Build Setup
 
