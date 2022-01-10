@@ -15,7 +15,7 @@ echo ""
 echo "${GREEN}=> Installing dependencies...${NC}"
 echo "   running: docker-compose run --rm server yarn"
 echo ""
-docker-compose run --rm server yarn
+docker-compose run --rm dev yarn
 
 echo ""
 echo "${GREEN}=> Starting container with a hot reload server${NC}"
