@@ -1,6 +1,12 @@
 import express, { Express, json, urlencoded } from 'express'
 import { boomErrorHandler, errorHandler, errorLogger } from './network'
-import { usersRouter } from './routers'
+import {
+  authorsRouter,
+  booksRouter,
+  genresRouter,
+  publishersRouter,
+  usersRouter,
+} from './routers'
 
 /**
  * This is an application factory function.
@@ -14,6 +20,10 @@ export default (): Express => {
 
   // routes
   app.get('/', (req, res) => res.send('Hello World!'))
+  authorsRouter(app)
+  booksRouter(app)
+  genresRouter(app)
+  publishersRouter(app)
   usersRouter(app)
 
   // middlewares
