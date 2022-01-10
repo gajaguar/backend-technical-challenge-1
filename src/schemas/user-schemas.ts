@@ -1,10 +1,12 @@
 import Joi from 'joi'
 
-/** id field */
-const id = Joi.number().integer().required()
+/** id field schema */
+const id = Joi.number().integer()
 
-/** email field base schema */
+/** email field schema */
 const email = Joi.string().email()
+
+/** password field schema */
 const password = Joi.string().min(8)
 
 /** Schema for user creation. */
@@ -15,14 +17,9 @@ export const UserCreate = Joi.object({
 
 /** Schema for user update. */
 export const UserUpdate = Joi.object({
+  id: id,
   email: email,
   password: password,
-})
-
-/** Schema for user response. */
-export const UserOut = Joi.object({
-  id: id.required(),
-  email: email.required(),
 })
 
 /** Schema for id verification */
