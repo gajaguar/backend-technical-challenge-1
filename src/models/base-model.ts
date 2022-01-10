@@ -1,6 +1,5 @@
 import {
   CreateDateColumn,
-  DeleteDateColumn,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm'
@@ -15,7 +14,4 @@ export abstract class BaseModel {
 
   @UpdateDateColumn()
   updated_at: Date
-
-  @DeleteDateColumn()
-  deleted_at: Date
 }
