@@ -10,7 +10,7 @@ specifiers:
   '@tsconfig/node14': ^1.0.1
   '@types/bcrypt': ^5.0.0
   '@types/express': ^4.17.13
-  '@types/faker': ^5.5.9
+  '@types/faker': ^6.6.9
   '@types/jest': ^27.4.0
   '@types/node': ^17.0.8
   '@typescript-eslint/eslint-plugin': ^5.9.0
@@ -18,7 +18,7 @@ specifiers:
   babel-jest: ^27.4.6
   bcrypt: ^5.0.1
   chalk: ^5.0.0
-  dotenv: ^10.0.0
+  dotenv: ^14.2.0
   eslint: ^8.0.1
   eslint-config-prettier: ^8.3.0
   eslint-plugin-prettier: ^4.0.0
@@ -45,7 +45,7 @@ dependencies:
   '@hapi/boom': 9.1.4
   '@types/bcrypt': 5.0.0
   bcrypt: 5.0.1
-  dotenv: 10.0.0
+  dotenv: 14.2.0
   express: 4.17.2
   joi: 17.5.0
   jsonwebtoken: 8.5.1
@@ -64,7 +64,7 @@ devDependencies:
   '@babel/preset-typescript': 7.16.7_@babel+core@7.16.7
   '@tsconfig/node14': 1.0.1
   '@types/express': 4.17.13
-  '@types/faker': 5.5.9
+  '@types/faker': 6.6.9
   '@types/jest': 27.4.0
   '@types/node': 17.0.8
   '@typescript-eslint/eslint-plugin': 5.9.0_bd2fd93dbcc607ad2f21b784bccfe0c8
@@ -1757,8 +1757,11 @@ packages:
       '@types/serve-static': 1.13.10
     dev: true
 
-  /@types/faker/5.5.9:
-    resolution: {integrity: sha512-uCx6mP3UY5SIO14XlspxsGjgaemrxpssJI0Ol+GfhxtcKpv9pgRZYsS4eeKeHVLje6Qtc8lGszuBI461+gVZBA==}
+  /@types/faker/6.6.9:
+    resolution: {integrity: sha512-Y9YYm5L//8ooiiknO++4Gr539zzdI0j3aXnOBjo1Vk+kTvffY10GuE2wn78AFPECwZ5MYGTjiDVw1naLLdDimw==}
+    deprecated: This is a stub types definition. faker provides its own type definitions, so you do not need this installed.
+    dependencies:
+      faker: 6.6.6
     dev: true
 
   /@types/graceful-fs/4.1.5:
@@ -2765,9 +2768,9 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dotenv/10.0.0:
-    resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
-    engines: {node: '>=10'}
+  /dotenv/14.2.0:
+    resolution: {integrity: sha512-05POuPJyPpO6jqzTNweQFfAyMSD4qa4lvsMOWyTRTdpHKy6nnnN+IYWaXF+lHivhBH/ufDKlR4IWCAN3oPnHuw==}
+    engines: {node: '>=12'}
     dev: false
 
   /dotenv/8.6.0:
