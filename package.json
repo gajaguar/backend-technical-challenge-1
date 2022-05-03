@@ -35,7 +35,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@hapi/boom": "^9.1.4",
+    "@hapi/boom": "^10.0.0",
     "@types/bcrypt": "^5.0.0",
     "bcrypt": "^5.0.1",
     "dotenv": "^14.2.0",
